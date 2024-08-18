@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+      box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  background-color: #4d4855;
+background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+
+}
+
+
+.img
+ {
+
+   width: 100%;
+   height: 100vh;
+   opacity:1;
+   transition: 1s opacity;
+   background: url("https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6\?ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D&auto=format\&fit=crop\&w=1000\&q=80");
+
+
+}
+
+.login-page{
+
+  position: absolute;
+  top: 0px;
+   background:black;
+   opacity: 0.65;
+     width: 100%;
+   height: 100%;
+   z-index: 1;
+}
+.login-form{
+
+transition: 1s;
+  box-shadow: 0 0 20px -6px #fff;
+  color: #fff;
+  z-index: 2;
+  background-color: black;
+   opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+padding: 20px;
+
+}
+.login-form h2{
+  padding: 5px;
+  text-align: center;
+  font-weight: inherit;
+}
+
+.login-form form{
+  margin-top: 10px;
+}
+.login-form form span{
+  padding: 10px;
+  margin-left:-5px;
+}
+.create_account{
+text-align: center;
+font-size: 13px;
+}
+.login-form form a{
+  text-decoration: none;
+  color: #48ff20;
+}
+.login-form form .forgot_pass{
+   padding: 5px;
+  margin-left:1px;
+display: block;
+  width: 100%;
+font-size:14px;
+text-decoration: none;
+color: #48ff20;
+}
+.login-form form input{
+  width: 98%;
+  color: #fff;
+  margin-left: 3px;
+
+border: 0.5px solid grey;
+background-color:black;
+border-radius: 5px ;
+padding: 8px;
+margin-bottom: 8px;
+outline: none;
+}
+.login-form form input:focus{
+  border: 3px solid grey;
+}
+.login-form form input[type=submit]{
+  margin-top: 12px;
+  background: #fff;
+  color: black;
+}
+.login-form form p{
+  color: #fff;
+  padding: 5px;
+
+}
+
+@media (max-width: 850px){
+.login-form{
+  width: 50%;
+  
+}
+@media (max-width: 650px){
+.login-form{
+  width: 60%;
+}
+}
+@media (max-width: 560px){
+.login-form{
+  width: 70%;
+}
+}
+}
+
+@media (max-width: 466px){
+.login-form{
+  width: 80%;
+}
+}
+@media (max-width: 408px){
+.login-form{
+  width: 85%;
+}
+}
+
+
+
+@media (max-height:400px){
+  .login-form{
+
+        height:95%;
+        overflow-x: hidden;
+        overflow-y: auto;
+  }
+}
