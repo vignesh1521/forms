@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+      box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.img
+ {
+   width: 100%;
+   height: 100vh;
+   opacity:1;
+   transition: 1s opacity;
+   background: url("https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6\?ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D&auto=format\&fit=crop\&w=1000\&q=80");
+
+
+}
+.opener{
+        position: absolute;
+        transition:1s;
+        width: 0%;
+        left: -10px;
+        height: 100%;
+        background: black;
+        opacity: 0.7;
+       
+}
+
+.menu_content{
+transition: 2s ease;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    opacity: 0;
+
+
+}
+.menu_content  a span{
+    position: absolute;
+    height: 100%;
+  width: 100%;
+  background: black;
+  right: 0.2px;
+  top: 0.2px;
+opacity: 0.5;
+border-radius: 5px;
+ z-index: -1;
+}
+.menu_content  a{
+   z-index: 1;
+      border-radius: 5px;
+    position: relative;
+    top: 16px;
+     padding: 5px 15px;
+border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+
+}
+.content{
+   
+    color:#fff;
+    position: absolute;
+    top: 40%;
+      
+        width: 100%;
+
+
+}
+.slogan{
+    transition: 0.25s;
+
+  
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.text
+{
+   
+    opacity: 0;
+transition: 2s ease ;
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 2.9em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+@media (max-width: 950px){
+
+.text h2{
+      font-size: 2.7em;
+}
+.text h3{
+          font-size: 1.7em;
+}
+    .slogan{
+        margin-left:15px;
+    }
+.menu{
+    padding: 23px;
+}
+.menu_content  a{
+    padding: 4px 13px;
+}
+
+
+
+}
+@media (max-width: 800px){
+.text h2{
+      font-size: 2.5em;
+}
+.text h3{
+          font-size: 1.5em;
+}
+
+}
+
+
+
+@media (max-width: 730px){
+.text h2{
+      font-size: 2.3em;
+}
+.text h3{
+          font-size: 1.3em;
+}
+
+}
+
+
+
+
+@media (max-width: 660px){
+.text h2{
+      font-size: 2.2em;
+}
+.text h3{
+          font-size: 1.2em;
+}
+.slogan{
+    margin-left: 10px;
+}
+}
+
+
+
+
+@media  (max-width: 620px){
+.text h2{
+      font-size: 2.1em;
+}
+.text h3{
+          font-size: 1.1em;
+}
+.text a{
+    padding: 8px 28px;
+}
+
+
+}
+
+
+
+@media (max-width: 580px){
+.text h2{
+      font-size: 2.0em;
+}
+.text h3{
+          font-size: 1.0em;
+}
+.slogan{
+    margin-left: 20px;
+}
+.text a{
+    padding: 6px 25px;
+}
+}
+
+
+
+@media   (max-width: 540px){
+.text h2{
+      font-size: 1.8em;
+}
+.text h3{
+          font-size: 0.8em;
+}
+.slogan{   
+    margin-left: 5px;
+}
+
+
+
+}
+
+
+
+@media  (max-width: 480px){
+.text h2{
+      font-size: 1.6em;
+}
+.text h3{
+          font-size: 0.6em;
+}
+
+}
+
+
+
+@media screen and (max-width: 440px){
+.text h2{
+      font-size: 1.4em;
+}
+.text h3{
+          font-size: 0.7em;
+}
+.slogan{
+
+    
+    margin-left: 5px;
+}
+.text a{
+    padding: 5px 12px;
+}
+}
+
+@media screen and (max-width: 385px){
+.text h2{
+      font-size: 1.2em;
+}
+.text h3{
+          font-size: 0.5em;
+}
+.slogan{
+
+    
+    margin-left: 4px;
+}
+.text a{
+    padding: 4px 11px;
+}
+}
